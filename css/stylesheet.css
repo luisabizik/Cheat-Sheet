@@ -4,6 +4,7 @@ html {
 
 h1 {
     text-align: center;
+    color: #4B0082;
 }
 
 h2 {
@@ -12,18 +13,31 @@ h2 {
 }
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 table {
     background-color: antiquewhite;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: #DA70D6;
+}
+
+td, thead {
+    padding: 5px 10px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
 footer {
-    display: flex;
-    align-items: center;
     padding: 0 1%;
 }
 
@@ -35,4 +49,7 @@ footer .content {
     flex-grow: 1;
     font-style: italic;
     color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
