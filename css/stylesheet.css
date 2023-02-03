@@ -19,12 +19,7 @@ table {
     background-color: antiquewhite;
 }
 
-@media only screen and (max-width: 750px) {
-    footer {
-      flex-direction: column;
-      padding: 0 10% 2rem 10%;
-    }
-}
+
 
 footer {
     display: flex;
